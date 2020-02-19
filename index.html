@@ -20,20 +20,27 @@
         <div class="container">
             <div class="jumbotron">
                 <h3>Please enter the restaurant below:</h3>
-                <div class="form-group">
+                <form id="inputForm">
+                    <div class="form-group">
                     <input type="text" class="form-control" id="restaurantInput" placeholder="Enter Restaurant Here...">
-                </div>
-                <!-- Buttons -->
-                <div id="buttons">
-                    <button type="button" id="addBtn" onclick="addRest()" class="btn btn-primary">Add Restaurant</button>
-                    <button type="button" id="randomBtn" onclick="randomize()" class="btn btn-success">Randomize</button>
-                </div>
-               
+                    </div>
 
-                <!-- Will display all entered options -->
-                <div id="optionsDisplay">
+                    <!-- Buttons -->
+                    <div id="buttons">
+                        <button type="button" id="addBtn" onclick="addRest()" class="btn btn-primary">Add Restaurant</button>
+                        <button type="button" id="randomBtn" onclick="randomize()" class="btn btn-success">Randomize</button>
+                    </div>
+                
 
-                </div>
+                    <!-- Will display all entered options -->
+                    <div id="optionsDisplay">
+
+                    </div>
+                    <div id="displaySelection">
+
+                    </div>
+                </form>
+                
              </div>
         </div>
         
