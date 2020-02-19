@@ -1,0 +1,27 @@
+body {
+    background-image: linear-gradient(rgb(0, 0, 65), rgb(10, 39, 63));
+    background-attachment: fixed;
+}
+
+#header {
+    color: white;
+    text-align: center;
+    padding-bottom: 3em;
+    padding-top: 2em;
+}
+
+/* #displayed {
+    display: inline-block;
+} */
+
+#displayed {
+    display: inline;
+}
+#optionsDisplay {
+    float: left;
+    
+}
+
+#displaySelection {
+    float: right;
+}
