@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(rgb(0, 0, 65), rgb(10, 39, 63));
+    background-image: linear-gradient(rgb(0, 0, 65), rgb(50, 95, 124));
     background-attachment: fixed;
 }
 
@@ -8,6 +8,7 @@ body {
     text-align: center;
     padding-bottom: 3em;
     padding-top: 2em;
+    
 }
 
 
@@ -17,9 +18,8 @@ body {
 }
 #optionsDisplay {
     text-align: center;
-   
-    
 }
+
 #displaySelection {
     text-align: center;
 }
@@ -28,7 +28,27 @@ body {
     float: right;
 }
 
-.jumbotron {
-    min-height: 600px;
-    
+#intro {
+    color: white;
+    padding: 2em 3em 2em;
+    text-align: center;
+}
+
+
+
+#gitLink{
+    font-size: 25px;
+}
+
+#enjoyText {
+    text-align: center;
+
+}
+
+.footer {
+    color: white;
+    text-align: center; 
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem; 
 }

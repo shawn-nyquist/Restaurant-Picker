@@ -1,10 +1,11 @@
 let optionArr = [];
-
-
+const optionList = document.getElementById('optionsDisplay');
+const selection = document.getElementById('displaySelection');
+const enjoyText = document.getElementById('enjoyText');
 
 const addRest = () => {
     const entry = document.getElementById('restaurantInput').value;
-    const optionList = document.getElementById('optionsDisplay');
+    
     
     
     // Push entry to options array
@@ -31,10 +32,13 @@ const addRest = () => {
 
 const randomize = () => {
     const randomNum = Math.floor(Math.random() * optionArr.length);
-    const selection = document.getElementById('displaySelection');
+    
+    
 
     selection.innerHTML = '<h1>Winner:</h1>' +
                             '<h4>' + optionArr[randomNum] + '</h4>';
+
+    enjoyText.innerHTML = '<h3>Enjoy your meal!</h3>';
 
 
 }
@@ -42,5 +46,8 @@ const randomize = () => {
 const clearForm = () => {
     document.getElementById("inputForm").reset();
     optionArr = [];
-
+    optionList.innerHTML = '';
+    selection.innerHTML = '';
+    enjoyText.innerHTML = '';
+    
 }
