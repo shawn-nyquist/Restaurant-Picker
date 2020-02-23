@@ -10,18 +10,25 @@ body {
     padding-top: 2em;
 }
 
-/* #displayed {
-    display: inline-block;
-} */
 
 #displayed {
-    display: inline;
+    
+    padding-top: 2em;
 }
 #optionsDisplay {
-    float: left;
+    text-align: center;
+   
     
 }
-
 #displaySelection {
+    text-align: center;
+}
+
+#clearBtn {
     float: right;
+}
+
+.jumbotron {
+    min-height: 600px;
+    
 }
